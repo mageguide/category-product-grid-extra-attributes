@@ -1,0 +1,17 @@
+{
+    "name": "mageguide/category-product-grid-extra-attributes",
+    "description": "Magento2 Module provides to admin user extra attribute columns on Product Grid of Category Edit Page for better filtering and product management.",
+    "type": "magento2-module",
+    "require": {
+        "php": "~7.1|~7.2|~7.3|~7.4",
+        "magento/framework": "^100.0.0|^101.0.0|^102.0.0|^103.0.0|^104.0.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageGuide\\AdminCategoryProductThumbnail\\": "src/"
+        }
+    }
+}
